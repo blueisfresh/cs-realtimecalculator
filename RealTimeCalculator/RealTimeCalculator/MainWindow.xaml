@@ -1,0 +1,122 @@
+﻿<Window x:Class="RealTimeCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RealTimeCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="400" Background="#1D1D27" FontFamily="Roboto Black" KeyDown="Button_KeyDown"
+>
+
+    <Window.Resources>
+        <!-- Animation for long press -->
+        <Storyboard x:Key="LongPressAnimation" x:Name="LongPressStoryboard">
+            <DoubleAnimation Storyboard.TargetName="LongPressProgressBar" Storyboard.TargetProperty="Value" From="0" To="100" Duration="0:0:1"/>
+        </Storyboard>
+
+        <!-- Style for Rounded Buttons -->
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="20" BorderThickness="0" Margin="5">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="5" Direction="320" Opacity="0.5"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+
+        <!-- Style for Rounded TextBox with Shadow -->
+        <Style x:Key="RoundedTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Transparent" BorderThickness="0" CornerRadius="20">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Direction="320" Opacity="0.5"/>
+                            </Border.Effect>
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="Focusable" Value="False"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Display with Shadow Effect -->
+        <TextBox x:Name="txtDisplay" FontFamily="Digital-7"  Margin="10,10" Grid.Row="0" FontSize="40" Style="{StaticResource RoundedTextBoxStyle}" 
+         Background="#3E498D" Foreground="White" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" 
+         VerticalAlignment="Stretch" MinHeight="100" TextWrapping="NoWrap" HorizontalScrollBarVisibility="Auto"/>
+
+        <!-- ProgressBar for long press indication -->
+        <ProgressBar x:Name="LongPressProgressBar" Grid.Row="0" Margin="10,120,10,0" Height="10" Visibility="Collapsed"/>
+
+        <!-- Inner Grid for Buttons -->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Row 1 -->
+            <Button x:Name="btnOpenParenthesis" Content="(" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="0" Grid.Column="0"/>
+            <Button x:Name="btnCloseParenthesis" Content=")" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="0" Grid.Column="1"/>
+            <Button x:Name="btnClear" Content="C" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="0" Grid.Column="2" Click="btnClear_Click" KeyDown="btnClear_Click"/>
+            <Button x:Name="btnBackspace" Content="&#x2190;" Background="#D1515C" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="0" Grid.Column="3" Click="btnBackspace_Click" KeyDown="btnBackspace_Click"/>
+            <!-- Row 2 -->
+            <Button x:Name="btnSin" Content="sin" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="1" Grid.Column="0" Click="btnSin_Click"/>
+            <Button x:Name="btnCos" Content="cos" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="1" Grid.Column="1" Click="btnCos_Click"/>
+            <Button x:Name="btnTan" Content="tan" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="1" Grid.Column="2" Click="btnTan_Click"/>
+            <Button x:Name="btnDivide" Content="/" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="1" Grid.Column="3" Click="btnOperator_Click"/>
+            <!-- Row 3 -->
+            <Button x:Name="btn7" Content="7" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="2" Grid.Column="0" Click="btnNum_Click"/>
+            <Button x:Name="btn8" Content="8" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="2" Grid.Column="1" Click="btnNum_Click"/>
+            <Button x:Name="btn9" Content="9" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="2" Grid.Column="2" Click="btnNum_Click"/>
+            <Button x:Name="btnMultiply" Content="*" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="2" Grid.Column="3" Click="btnOperator_Click"/>
+            <!-- Row 4 -->
+            <Button x:Name="btn4" Content="4" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="3" Grid.Column="0" Click="btnNum_Click"/>
+            <Button x:Name="btn5" Content="5" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="3" Grid.Column="1" Click="btnNum_Click"/>
+            <Button x:Name="btn6" Content="6" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="3" Grid.Column="2" Click="btnNum_Click"/>
+            <Button x:Name="btnSubtract" Content="-" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="3" Grid.Column="3" Click="btnOperator_Click"/>
+            <!-- Row 5 -->
+            <Button x:Name="btn1" Content="1" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="4" Grid.Column="0" Click="btnNum_Click" KeyDown="btnNum_Click"/>
+            <Button x:Name="btn2" Content="2" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="4" Grid.Column="1" Click="btnNum_Click"/>
+            <Button x:Name="btn3" Content="3" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="4" Grid.Column="2" Click="btnNum_Click"/>
+            <Button x:Name="btnAdd" Content="+" Background="#A9A9A9" Foreground="Black" Style="{StaticResource RoundedButtonStyle}" Grid.Row="4" Grid.Column="3" Click="btnOperator_Click"/>
+            <!-- Row 6 -->
+            <Button x:Name="btnPlusMinus" Content="+/-" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="5" Grid.Column="0" Click="btnPlusMinus_Click"/>
+            <Button x:Name="btn0" Content="0" Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" 
+                PreviewMouseLeftButtonDown="btn0_PreviewMouseLeftButtonDown"
+                PreviewMouseLeftButtonUp="btn0_PreviewMouseLeftButtonUp"
+                Click="btnNum_Click"/>
+            <Button x:Name="btnDot" Content="." Background="#3E598D" Foreground="White" Style="{StaticResource RoundedButtonStyle}" Grid.Row="5" Grid.Column="3" Click="btnDot_Click"/>
+
+        </Grid>
+    </Grid>
+</Window>

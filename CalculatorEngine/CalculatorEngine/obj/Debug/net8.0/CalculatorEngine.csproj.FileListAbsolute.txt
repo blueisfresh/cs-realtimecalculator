@@ -1,0 +1,11 @@
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.deps.json
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.dll
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.pdb
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.AssemblyInfoInputs.cache
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.AssemblyInfo.cs
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.csproj.CoreCompileInputs.cache
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.dll
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\obj\Debug\net8.0\refint\CalculatorEngine.dll
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.pdb
+C:\Users\elias\source\repos\CalculatorEngine\CalculatorEngine\obj\Debug\net8.0\ref\CalculatorEngine.dll

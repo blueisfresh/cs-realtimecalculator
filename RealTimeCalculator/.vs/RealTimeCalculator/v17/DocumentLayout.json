@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|c:\\users\\elias\\source\\repos\\realtimecalculator\\realtimecalculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|solutionrelative:realtimecalculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\realtimecalculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|solutionrelative:realtimecalculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|c:\\users\\elias\\source\\repos\\realtimecalculator\\realtimecalculator\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|solutionrelative:realtimecalculator\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|c:\\users\\elias\\source\\repos\\realtimecalculator\\realtimecalculator\\realtimecalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|solutionrelative:realtimecalculator\\realtimecalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elias\\source\\repos\\CalculatorEngine\\CalculatorEngine\\ClassCalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|c:\\users\\elias\\source\\repos\\realtimecalculator\\realtimecalculator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D0B1C36D-07E9-4221-AD52-861FEEF59924}|RealTimeCalculator\\RealTimeCalculator.csproj|solutionrelative:realtimecalculator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RealTimeCalculator",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\RealTimeCalculator.csproj",
+              "RelativeDocumentMoniker": "RealTimeCalculator\\RealTimeCalculator.csproj",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\RealTimeCalculator.csproj",
+              "RelativeToolTip": "RealTimeCalculator\\RealTimeCalculator.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-05T12:03:25.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\App.xaml",
+              "RelativeDocumentMoniker": "RealTimeCalculator\\App.xaml",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\App.xaml",
+              "RelativeToolTip": "RealTimeCalculator\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T12:02:31.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\App.xaml.cs",
+              "RelativeDocumentMoniker": "RealTimeCalculator\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\App.xaml.cs",
+              "RelativeToolTip": "RealTimeCalculator\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T12:02:25.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\CalculatorEngine\\CalculatorEngine\\ClassCalculator.cs",
+              "RelativeDocumentMoniker": "..\\CalculatorEngine\\CalculatorEngine\\ClassCalculator.cs",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\CalculatorEngine\\CalculatorEngine\\ClassCalculator.cs",
+              "RelativeToolTip": "..\\CalculatorEngine\\CalculatorEngine\\ClassCalculator.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAqwKQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:49:59.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RealTimeCalculator\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\MainWindow.xaml",
+              "RelativeToolTip": "RealTimeCalculator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T07:14:17.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RealTimeCalculator\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RealTimeCalculator\\MainWindow.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwDkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:14:16.521Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
