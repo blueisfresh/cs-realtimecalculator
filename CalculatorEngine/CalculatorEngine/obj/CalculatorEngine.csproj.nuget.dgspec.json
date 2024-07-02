@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elias\\source\\repos\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj": {}
+    "C:\\Work\\Dev\\git\\Github\\cs-calculator-realtimecalculator\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elias\\source\\repos\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj": {
+    "C:\\Work\\Dev\\git\\Github\\cs-calculator-realtimecalculator\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elias\\source\\repos\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj",
+        "projectUniqueName": "C:\\Work\\Dev\\git\\Github\\cs-calculator-realtimecalculator\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj",
         "projectName": "CalculatorEngine",
-        "projectPath": "C:\\Users\\elias\\source\\repos\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj",
-        "packagesPath": "C:\\Users\\elias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elias\\source\\repos\\CalculatorEngine\\CalculatorEngine\\obj\\",
+        "projectPath": "C:\\Work\\Dev\\git\\Github\\cs-calculator-realtimecalculator\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj",
+        "packagesPath": "C:\\Users\\gue\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Dev\\git\\Github\\cs-calculator-realtimecalculator\\CalculatorEngine\\CalculatorEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

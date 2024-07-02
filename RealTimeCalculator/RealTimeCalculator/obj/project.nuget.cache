@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3H4/fGVq7hESCmDemaBjlKozS7pfBD1+LmieXw95T0nHBY0IYLtXZfOlTLpvlO92uQVlXzNRijOiaAPQGOfeBw==",
+  "dgSpecHash": "CuptCYKMx7vEFyCrhnSa0tp43GN8usHf3jG838vI/Q3yxHYG8pn4dFrVcWo6syJIqE3PAei4nEi0rRdqUTbo4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elias\\source\\repos\\RealTimeCalculator\\RealTimeCalculator\\RealTimeCalculator.csproj",
+  "projectFilePath": "C:\\Work\\Dev\\git\\Github\\cs-calculator-realtimecalculator\\RealTimeCalculator\\RealTimeCalculator\\RealTimeCalculator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\elias\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.31\\microsoft.windows.sdk.net.ref.10.0.17763.31.nupkg.sha512"
+    "C:\\Users\\gue\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.31\\microsoft.windows.sdk.net.ref.10.0.17763.31.nupkg.sha512"
   ],
   "logs": []
 }
